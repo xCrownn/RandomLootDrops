@@ -1,0 +1,17 @@
+name: RandomLootDrop
+version: '${project.version}'
+main: me.xcrownn.randomlootdrop.RandomLootDrop
+api-version: 1.18
+depend: [ WorldGuard, GriefPrevention ]
+softdepend: [HolographicDisplays]
+authors: [ xCrownn ]
+description: Spawns in a chest every x amount of time.
+website: xCrownn.xyz
+
+commands:
+  lootdrops:
+    usage: </command>
+
+permissions:
+  RLD.Admin:
+    description: Main perm
